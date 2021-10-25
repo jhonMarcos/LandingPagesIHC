@@ -1,0 +1,613 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+/* section{
+    height: 100vh;
+}
+ */
+/*=========================NAV===========================*/
+ .navbar {
+    background-color: #6E2B62;
+  }
+  .navbar .navbar-brand {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: #ecdbff;
+  }
+  .navbar .navbar-text {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-text a {
+    color: #ecdbff;
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: #ecdbff; 
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #ecf0f1;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #ecdbff;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #ecdbff;
+    background-color: #8e44ad;
+  }
+  .navbar .navbar-toggler {
+    border-color: #8e44ad;
+  }
+  .navbar .navbar-toggler:hover,
+  .navbar .navbar-toggler:focus {
+    background-color: #8e44ad;
+  }
+  .navbar .navbar-toggler .navbar-toggler-icon {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #ecf0f1;
+  }
+  .navbar .navbar-link {
+    color: #ecf0f1;
+  }
+  .navbar .navbar-link:hover {
+    color: #ecdbff;
+  }
+  
+  @media (max-width: 575px) {
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color: #8e44ad;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color: #8e44ad;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color: #8e44ad;
+    }
+  }
+  
+  @media (max-width: 1199px) {
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color: #8e44ad;
+    }
+  }
+  
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #ecf0f1;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #ecdbff;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #ecdbff;
+    background-color: #8e44ad;
+  }
+/*===================MENU==========================*/
+
+ #menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+    
+ }
+
+ #menu a{
+     color:#3f3f3f;
+     
+ }
+/*===================SLIDER DE IMAGENES==========================*/
+
+.carousel-inner {
+    max-height:39rem !important;
+}
+
+/*===================SECCION NUESTRO EQUIPO IMAGEN==========================*/
+
+
+
+#img-equipo{
+    max-height:30rem !important;
+    width:50%;
+}
+
+
+/*===================SECCION NUESTRO EQUIPO MAPA==========================*/
+#local {
+    margin-top:10px;
+    background-color: #f3f3f3;
+    display:flex;
+    justify-content: center; 
+    padding-bottom: 300px; 
+}
+
+.mapa {
+    background: url("../img/yachachikuy.png");
+    width:100%;
+    height: 500px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+ 
+}
+
+
+.wrapper-local {
+    width:80%;
+    margin-left:100px;
+   margin-right: 700px;
+    padding-top:150px;
+}
+
+#local2 {
+    margin-top:10px;
+    background-color: #f3f3f3;
+    display:flex;
+    justify-content:center; 
+    padding-bottom: 300px; 
+}
+
+.nosotrosc {
+    background: url("../img/nosotros.jpg");
+    width:80%;
+    height: 500px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.wrapper-local2 {
+    width:50%;
+    margin-left:100px;
+    padding-top:150px;
+    
+}
+
+#local3 {
+    margin-top:10px;
+    background-color: #f3f3f3;
+    display:flex;
+    justify-content: center; 
+    padding-bottom: 300px; 
+}
+
+.misionc {
+    background: url("../img/mision.jpg");
+    width:100%;
+    height: 500px;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    margin-left: 100px;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.wrapper-local3 {
+    width:50%;
+    margin-left:100px;
+    padding-top:150px;
+}
+
+ /*================================botones=====================*/
+ .posicion {
+    position: relative;
+    top: 200px;
+    left: 100px;
+ }
+/*===========================SECCION EQUIPO MIAMI==================================*/
+#local4{
+    margin-top:10px;
+    background-color: #f3f3f3;
+    display:block;
+    justify-content: center; 
+    padding-bottom: 300px; 
+}
+.wrapper-local4 {
+    display: block;
+    width:100%;
+    text-align: center;
+  
+}
+.wrapper-local4_2 {
+    width:100%;
+    margin-left:500px;
+    padding-top:100px;
+    text-align: center;
+  
+}
+#numeros-local{
+    margin:0 !important;
+    padding:0 !important;
+}
+#numeros-local div {
+    padding: 0 20px 0 0;   
+    text-align:center;
+    height:508px;
+}
+
+#numeros-local div:not(:last-child) {
+    border-right: 2px solid #3f3f3f;
+  }
+#numeros-local div:not(:first-child) {
+    padding-left:50px;
+  }
+
+#numeros-local p{
+    margin:0;
+}
+
+/*=========================CONTACTOS BACKGROUND================================*/
+
+/* #bg-contactos{
+    position:relative;
+    top: -130px;
+} 
+
+ #seccion-contacto{
+    background-color: #1b2a4e;
+    min-height:500px;
+    position:relative;
+}
+ */
+/*=========================CONTACTOS FORMULARIO================================*/
+
+/* #contenedor-formulario{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius:5px;
+    
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+ */
+
+
+/*=========================FOOTER================================*/
+
+footer{
+    width: 100%;
+    background: #202020;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.raw{
+    margin-top: 20px;
+    display: flex;
+}
+
+.raw img{
+    width: 36px;
+    height: 36px;
+}
+
+.raw p{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.raw2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.raw2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.raw2 p{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #101010;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 20px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+
+/* footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+#iconos  i {
+    font-size: 26px;
+    padding: 0 8px;
+    color:#f3f3f3;
+}
+ */
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+
+@media (max-width:1200px){
+    #intro, #equipo {
+        width:90% !important;
+        margin:auto;
+    }
+  
+    .misionc {
+        width:100%;
+        height: 500px;
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+        margin-right: 100px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .nosotrosc {
+        background: url("../img/nosotros.jpg");
+        width:10%;
+        height: 500px;
+        background-size: 100% 5000px;
+        background-repeat: no-repeat;
+        margin-left: 100px;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+    
+    #local {
+        flex-wrap: wrap;
+        padding-top:30px;
+   }
+   #local2 {
+    flex-wrap: wrap;
+    padding-top:30px;
+}
+#local3 {
+    flex-wrap: wrap;
+    padding-top:30px;
+}
+#local4 {
+    flex-wrap: wrap;
+    padding-top:30px;
+}
+   .wrapper-local {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+   .wrapper-local2 {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+   .wrapper-local3 {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+   .wrapper-local4 {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+   .wrapper-local4_2 {
+    width:90%;
+    margin:auto;
+    padding-top:50px;    
+   }
+   /* footer*/
+   .container-body{
+    flex-wrap: wrap;
+}
+
+.colum1{
+    max-width: 100%;
+}
+
+.colum2,
+.colum3{
+    margin-top: 40px;
+}
+
+}
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+
+
+@media (max-width:768px) {
+
+    #intro, #equipo{
+        width:90% !important;
+        margin:auto;
+    }
+
+    
+    #img-equipo{
+        max-height:20rem !important;
+        width:90%;
+    }
+    .wrapper-local {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    .wrapper-local2 {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    .wrapper-local3 {
+        width:90%;
+        margin:auto;
+        padding-top:50px;    
+    }
+    #local {
+        flex-wrap: wrap;
+    }
+    #local2 {
+        flex-wrap: wrap;
+    }
+    #local3 {
+        flex-wrap: wrap;
+    }
+    .mapa img {
+        width:100%;
+        height:auto;
+    }
+    #bg-contactos{
+        top: -120px;
+    }
+ /*--------------footer----------*/
+ .container-body{
+    flex-wrap: wrap;
+}
+
+.colum1{
+    max-width: 100%;
+}
+
+.colum2,
+.colum3{
+    margin-top: 40px;
+}
+
+}
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width:100% !important;
+    }
+    #servicios-fila-1 {
+        width:100% !important;
+    }
+
+    .icono-wrap{
+        flex-wrap:wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+}
