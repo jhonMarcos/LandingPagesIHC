@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
@@ -70,6 +75,8 @@ body {
   .navbar .navbar-link:hover {
     color: #ecdbff;
   }
+
+
   
   @media (max-width: 575px) {
     .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
@@ -183,7 +190,9 @@ body {
     background-repeat: no-repeat;
  
 }
-
+/*====== Idea de diseño de fondo===== */
+/* .contenedor:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
+.contenedor {overflow:hidden;} */
 
 .wrapper-local {
     width:80%;
@@ -202,13 +211,13 @@ body {
 
 .nosotrosc {
     background: url("../img/nosotros.jpg");
-    width:80%;
+    width:100%;
     height: 500px;
     background-size: 100% 500px;
     background-repeat: no-repeat;
+    border-radius: 10px;
     margin-right: 100px;
     margin-top: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .wrapper-local2 {
@@ -232,9 +241,10 @@ body {
     height: 500px;
     background-size: 100% 500px;
     background-repeat: no-repeat;
+    border-radius: 10px;
     margin-left: 100px;
     margin-top: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+   
 }
 
 .wrapper-local3 {
@@ -245,9 +255,7 @@ body {
 
  /*================================botones=====================*/
  .posicion {
-    position: relative;
-    top: 200px;
-    left: 100px;
+    margin-left: 100px;
  }
 /*===========================SECCION EQUIPO MIAMI==================================*/
 #local4{
@@ -453,7 +461,7 @@ footer p{
  */
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
-@media (max-width:1200px){
+@media (max-width:1280px){
     #intro, #equipo {
         width:90% !important;
         margin:auto;
@@ -465,17 +473,16 @@ footer p{
         background-size: 100% 500px;
         background-repeat: no-repeat;
         margin-right: 100px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+       
     }
 
     .nosotrosc {
-        background: url("../img/nosotros.jpg");
-        width:10%;
+        width:100%;
         height: 500px;
-        background-size: 100% 5000px;
+        background-size: 100% 500px;
         background-repeat: no-repeat;
         margin-left: 100px;
-        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        
     }
     
     #local {
@@ -549,6 +556,14 @@ footer p{
         max-height:20rem !important;
         width:90%;
     }
+    .misionc {
+        width:100%;
+        height: 500px;
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+        margin-right: 100px;
+       
+    }
     .wrapper-local {
         width:90%;
         margin:auto;
@@ -603,6 +618,25 @@ footer p{
     }
     #servicios-fila-1 {
         width:100% !important;
+    }
+    .nosotrosc {
+        width:100%;
+        height: 500px;
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+        margin-left: 25px;
+        margin-right: 25px;
+        
+    }
+    .misionc {
+        width:100%;
+        height: 500px;
+        background-size: 100% 500px;
+        background-repeat: no-repeat;
+        margin-right: 25px;
+        margin-left: 25px;
+       
+       
     }
 
     .icono-wrap{
